@@ -1,0 +1,101 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": null,
+	"service_label": "BUSINESS_PARTNER_CUSTOMER",
+	"api_type": "",
+	"Customer": {
+		"BusinessPartner": null,
+		"Customer": null,
+		"Currency": "",
+		"PaymentTerms": "",
+		"PaymentMethod": "",
+		"Incoterms": "",
+		"BPAccountAssignmentGroup": "",
+		"CreationDate": "",
+		"QuotationIsBlockedForCustomer": null,
+		"OrderIsBlockedForCustomer": null,
+		"DeliveryIsBlockedForCustomer": null,
+		"BillingIsBlockedForCustomer": null,
+		"PostingIsBlockedForCustomer": null,
+		"IsMarkedForDeletion": null,
+		"Contact": {
+			"ContactID": null,
+			"ContactPersonName": "",
+			"EmailAddress": "",
+			"PhoneNumber": "",
+			"MobilePhoneNumber": "",
+			"FaxNumber": "",
+			"ContactTag1": "",
+			"ContactTag2": "",
+			"ContactTag3": "",
+			"ContactTag4": "",
+			"DefaultContact": null,
+			"IsMarkedForDeletion": null
+		},
+		"PartnerFunction":{
+			"PartnerCounter": null,
+			"PartnerFunction": "",
+			"PartnerFunctionBusinessPartner": null,
+			"DefaultPartner": null,
+			"CreationDate": "",
+			"IsMarkedForDeletion": null,
+			"PartnerFunctionContact": {
+				"DefaultPartner": null,
+				"ContactPersonName": "",
+				"EmailAddress": "",
+				"PhoneNumber": "",
+				"MobilePhoneNumber": "",
+				"FaxNumber": "",
+				"ContactTag1": "",
+				"ContactTag2": "",
+				"ContactTag3": "",
+				"ContactTag4": "",
+				"DefaultContact": null,
+				"IsMarkedForDeletion": null
+			},
+			"PartnerPlant": {
+				"PlantCounter": null,
+				"Plant": "",
+				"DefaultPlant": null,
+				"DefaultStockConfirmationPlant": null,
+				"IsMarkedForDeletion": null
+			}
+		},
+		"FinInst": {
+			"FinInstIdentification": null,
+			"ValidityEndDate": "",
+			"ValidityStartDate": "",
+			"FinInstCountry": "",
+			"FinInstNumber": "",
+			"FinInstName": "",
+			"FinInstBranchName": "",
+			"SWIFTCode": "",
+			"InternalFinInstCustomerID": null,
+			"InternalFinInstAccountID": null,
+			"FinInstControlKey": "",
+			"FinInstAccountName": "",
+			"FinInstAccount": "",
+			"IsMarkedForDeletion": null
+		},
+		"Tax": {
+			"DepartureCountry": "",
+			"TaxCategory": "",
+			"BPTaxClassification": ""
+		},
+		"Accounting": {
+			"HouseBank": "",
+			"ClearCustomerSupplier": null,
+			"ReconciliationAccount": "",
+			"IsMarkedForDeletion": null
+		}
+	},
+	"api_schema": "DPFMBusinessPartnerCustomerReads",
+	"accepter": ["Customer"],
+	"business_partner_customer_id": null,
+	"deleted": false
+}
